@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webp": "onchange src/img/**/*.{jpg,png,gif,svg} -- node imagemin.js {{changed}}"
+    "webp": "onchange src/img/**/*.{jpg,png,svg} -- node imagemin.js {{changed}}"
   },
   "repository": {
     "type": "git",
