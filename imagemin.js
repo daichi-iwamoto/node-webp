@@ -3,7 +3,10 @@ const imageminWebp = require('imagemin-webp');
 
 imagemin([process.argv[2]], {
   plugins: [
-    imageminWebp()
+    imageminWebp({
+      // クオリティ設定
+      quality: 75
+    })
   ],
   replaceOutputDir: output => {
     return (
